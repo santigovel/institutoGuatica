@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-700 font-bold text-white">
-                IG
-              </span>
+              <img
+                src="/institutoGuatica/escudo.webp"
+                alt="Escudo del Instituto Guática"
+                className="h-12 w-12 rounded-xl object-contain shadow-md ring-1 ring-white/10"
+              />
               <span className="text-lg font-extrabold tracking-tight text-white">
                 Instituto Guática
               </span>
