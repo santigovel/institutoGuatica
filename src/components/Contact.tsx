@@ -1,10 +1,11 @@
 import { useState, type FormEvent } from 'react'
 import { useGsapReveal } from '../lib/animations'
+import Map from './Map'
 
 const INFO = [
   {
     label: 'Dirección',
-    value: 'Cra 4 #5-23, Guática, Risaralda, Colombia',
+    value: 'Vía al Jordán, Guática, Risaralda, Colombia',
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -68,6 +69,10 @@ export default function Contact() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="mt-8" data-reveal>
+            <Map />
           </div>
         </div>
 

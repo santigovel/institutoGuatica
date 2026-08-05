@@ -17,9 +17,9 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-slate-400">
-              Institución educativa comprometida con la formación integral de
-              niños y jóvenes en el occidente de Risaralda. Educamos con
-              raíces, propósito y visión de futuro.
+              Institución educativa oficial ubicada en el municipio de Guática,
+              Risaralda, Colombia. Educamos con raíces, propósito y visión de
+              futuro.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Footer() {
               Contacto
             </h4>
             <ul className="mt-4 space-y-2 text-sm text-slate-400">
-              <li>Cra 4 #5-23, Guática</li>
+              <li>Vía al Jordán, Guática</li>
               <li>Risaralda, Colombia</li>
               <li>+57 606 854 1234</li>
               <li>contacto@institutoguatica.edu.co</li>

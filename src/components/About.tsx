@@ -58,10 +58,12 @@ export default function About() {
             Un proyecto educativo arraigado en la región cafetera
           </h2>
           <p className="mt-5 leading-relaxed text-slate-600" data-reveal>
-            Desde hace más de tres décadas, el Instituto Guática es sinónimo de
-            formación de calidad en el occidente de Risaralda. Nuestros
-            estudiantes crecen entre la calidez del paisaje cafetero y un modelo
-            pedagógico que combina ciencia, arte, deporte y valores.
+            Desde hace más de tres décadas, el Instituto Guática, institución
+            educativa oficial ubicada en el municipio de Guática (Risaralda,
+            Colombia), es sinónimo de formación de calidad en el occidente de
+            Risaralda. Nuestros estudiantes crecen entre la calidez del paisaje
+            cafetero y un modelo pedagógico que combina ciencia, arte, deporte y
+            valores.
           </p>
           <p className="mt-4 leading-relaxed text-slate-600" data-reveal>
             Creemos en una educación que reconoce el contexto, respeta la
