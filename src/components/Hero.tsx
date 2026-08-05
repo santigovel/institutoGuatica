@@ -42,12 +42,13 @@ export default function Hero() {
         <div>
           <span
             id="hero-badge"
-            className="inline-flex items-center gap-2 rounded-full bg-emerald-600/10 px-4 py-1.5 text-sm font-bold text-emerald-700 ring-1 ring-emerald-600/20"
+            className="inline-flex items-center gap-3 rounded-full bg-emerald-600/10 px-4 py-2 text-sm font-bold text-emerald-700 ring-1 ring-emerald-600/20"
           >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-600" />
-            </span>
+            <img
+              src="/institutoGuatica/escudo.webp"
+              alt="Escudo del Instituto Guática"
+              className="h-8 w-8 rounded-full object-contain ring-1 ring-emerald-600/20"
+            />
             Apertura de matrículas 2026
           </span>
 

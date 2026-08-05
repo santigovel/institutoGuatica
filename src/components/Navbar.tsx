@@ -39,9 +39,11 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <a href="#inicio" className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 font-bold text-white shadow-md">
-            IG
-          </span>
+          <img
+            src="/institutoGuatica/escudo.webp"
+            alt="Escudo del Instituto Guática"
+            className="h-11 w-11 rounded-xl object-contain shadow-md ring-1 ring-slate-200"
+          />
           <span className="flex flex-col leading-tight">
             <span className="text-base font-extrabold tracking-tight text-slate-900">
               Instituto Guática
