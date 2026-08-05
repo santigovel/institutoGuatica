@@ -20,12 +20,12 @@ export const IMAGES: Record<string, ImageCredit> = {
     licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/deed.es',
   },
   coffee: {
-    src: wiki('Coffee_farm_in_Colombia.jpg'),
-    alt: 'Paisaje de la región cafetera de Colombia',
-    title: 'Coffee farm in Colombia',
-    author: 'Wikimedia Commons',
-    license: 'CC BY 2.0',
-    licenseUrl: 'https://creativecommons.org/licenses/by/2.0/deed.es',
+    src: '/institutoGuatica/sede.webp',
+    alt: 'Sede física del Instituto Guática',
+    title: 'Sede física del Instituto Guática',
+    author: 'Instituto Guática',
+    license: 'Uso institucional',
+    licenseUrl: 'https://commons.wikimedia.org/',
   },
   science: {
     src: wiki('Southern_Arkansas_University_Biology_student_with_microscope.jpg'),
