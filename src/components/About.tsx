@@ -1,5 +1,4 @@
 import { useGsapParallax, useGsapReveal } from '../lib/animations'
-import { IMAGES } from '../data/images'
 
 const FEATURES = [
   {
@@ -43,8 +42,8 @@ export default function About() {
           <div className="absolute -bottom-5 -right-5 h-40 w-40 rounded-3xl bg-sky-100" />
           <div ref={parallaxRef} className="relative overflow-hidden rounded-3xl shadow-xl ring-8 ring-white">
             <img
-              src={IMAGES.coffee.src}
-              alt={IMAGES.coffee.alt}
+              src="/institutoGuatica/sede.webp"
+              alt="Sede física del Instituto Guática"
               className="h-[420px] w-full object-cover md:h-[500px]"
               loading="lazy"
             />
@@ -59,10 +58,12 @@ export default function About() {
             Un proyecto educativo arraigado en la región cafetera
           </h2>
           <p className="mt-5 leading-relaxed text-slate-600" data-reveal>
-            Desde hace más de tres décadas, el Instituto Guática es sinónimo de
-            formación de calidad en el occidente de Risaralda. Nuestros
-            estudiantes crecen entre la calidez del paisaje cafetero y un modelo
-            pedagógico que combina ciencia, arte, deporte y valores.
+            Desde hace más de tres décadas, el Instituto Guática, institución
+            educativa oficial ubicada en el municipio de Guática (Risaralda,
+            Colombia), es sinónimo de formación de calidad en el occidente de
+            Risaralda. Nuestros estudiantes crecen entre la calidez del paisaje
+            cafetero y un modelo pedagógico que combina ciencia, arte, deporte y
+            valores.
           </p>
           <p className="mt-4 leading-relaxed text-slate-600" data-reveal>
             Creemos en una educación que reconoce el contexto, respeta la
