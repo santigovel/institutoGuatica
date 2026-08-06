@@ -9,7 +9,12 @@ export default function Hero() {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } })
       tl.fromTo('#hero-badge', { y: 24, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.7, delay: 0.4 })
-        .fromTo('#hero-title', { y: 60, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.9 }, '-=0.3')
+        .fromTo(
+          '#hero-title > span',
+          { y: 50, rotateX: -90, autoAlpha: 0 },
+          { y: 0, rotateX: 0, autoAlpha: 1, duration: 0.9, stagger: 0.14, ease: 'power4.out' },
+          '-=0.3',
+        )
         .fromTo('#hero-sub', { y: 40, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.8 }, '-=0.6')
         .fromTo('#hero-cta', { y: 30, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.7, stagger: 0.12 }, '-=0.5')
         .fromTo(
@@ -56,11 +61,13 @@ export default function Hero() {
             id="hero-title"
             className="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl"
           >
-            Formamos líderes con{' '}
-            <span className="bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
-              raíces en nuestra tierra
+            <span className="inline-block">Visionarios</span>{' '}
+            <span className="inline-block bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
+              del
             </span>{' '}
-            y visión de futuro
+            <span className="inline-block bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
+              futuro
+            </span>
           </h1>
 
           <p
